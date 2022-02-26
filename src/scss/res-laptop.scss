@@ -1,0 +1,37 @@
+/*========= RESPONSIVE SCSS ==========*/
+
+@media (max-width: 1400px) {
+  .scroll_page .header_area_one {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .section .slider_content h2 {
+    font-size: 60px;
+  }
+  .section .slider_content.slider_content_two h2,
+  .section .slider_content.slider_content_three h2 {
+    font-size: 46px;
+  }
+  .section .slider_image_inner {
+    margin-right: 0;
+    display: inline-block;
+  }
+  #fp-nav.fp-left {
+    left: -7px;
+  }
+  .error_area .error_text:after {
+    background-size: contain;
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .menu_left .logo {
+    display: none;
+  }
+  #fp-nav.fp-left {
+    display: none;
+  }
+}
